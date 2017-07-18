@@ -7,7 +7,7 @@ def download(url):
          || 更加健壮的版本
          || 可以捕获异常
          ||
-         \／
+         \/
 
 import urllib2
 
@@ -24,7 +24,7 @@ def download():
          || 服务器过载 503 Service Unavailable 5xx错误 服务端存在问题
          || 404 Not Found 4xx错误 请求存在问题
          || 支持重试下载功能
-         ||
+        \||/
          \/
 
 def download(url, num_retries=2):
